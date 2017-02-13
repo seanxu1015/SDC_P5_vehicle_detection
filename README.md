@@ -9,6 +9,7 @@
 There are three convolutional layers for feature extracting and a two-fullyconnected classifier. The learning method is Adam. 
 
 The details of the network architecture as follows:
+
 ![svg](output_images/output_2_0.svg)
 
 
@@ -21,6 +22,7 @@ From 400-550, I choose smaller boxes (70, 65) with overlap of 0.6.
 (I adjusted these parameters according the failure regions of the algorithm.)
 
 Here is the all boxes I feed to the classifier:
+
 ![png](output_images/all_windows.png)
 
 ## Processing Steps
@@ -32,6 +34,7 @@ Here is the all boxes I feed to the classifier:
 6. drawback the detected bboxes to original image.
 
 Here are some examples, 
+
 ![png](output_images/results1.png)
 first column: with all detected windows;
 second column: heat map;
