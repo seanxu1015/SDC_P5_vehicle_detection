@@ -10,7 +10,7 @@ There are three convolutional layers for feature extracting and a two-fullyconne
 
 The details of the network architecture as follows:
 
-![svg](output_images/output_2_0.svg)
+![svg](output_images/network.png)
 
 
 
